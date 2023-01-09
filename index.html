@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tự học code</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tự học code</title>
 </head>
-<script> 
-   alert('hello world from Tien_tap_code');
-</script>
+<!-- <script src="./test/test1.js"> 
+  //  alert('hello world from Tien_tap_code');
+
+</script> -->
 <body>
-      <div>
-        <h1 style="color: blue;">Hello world , hello 1:47AM</h1>  
-      </div>    
+  <div>
+    <h1 id="bru" style="color: blue;">Hello world , hello 1:47AM</h1>
+  </div>
+
+  <!-- <button onclick="myFunction()">Click me</button>
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+      document.getElementById("bru").style.color = "red";
+      // console.log( document.getElementById("bru").innerHTML );
+    }
+  </script> -->
+  
+    <form action="/action_page.php">
+      <label for="fname">nhập số a</label><br>
+      <input type="text" id="so1" name="fname" ><br>
+      <label for="lname">nhập số b:</label><br>
+      <input type="text" id="so2" name="lname" ><br><br>
+      <!-- <button  type="submit" value="Tính tổng"> -->
+      <button onclick="tinhTong()" type="button">tính tổng</button>
+      
+      <script>
+        function  tinhTong(){
+          var a=document.getElementById("so1").value ;
+          var b=document.getElementById("so2").value ;
+          document.getElementById("bru").innerHTML = parseInt(a)+parseInt(b);
+          // console.log(parseInt(a)+parseInt(b));
+        }
+
+        
+      </script>
+    </form> 
+  
+
+
+
+ 
 </body>
 
 </html>
-
