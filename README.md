@@ -1,2 +1,2 @@
 # javascriptBasic-Tien 
-source code JSbasic by Tien
+HTML CSS JavaScript
